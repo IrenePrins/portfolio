@@ -14,7 +14,7 @@ export default function Header() {
                     <div className="introduction">
                     <div className="introduction-text">
                         <h1 className="introduction-text__title">Irene Prins</h1>
-                        <h2 className="introdduction-text__subtitle">Webdeveloper</h2>
+                        <h2 className="introddsuction-text__subtitle">Webdeveloper</h2>
                         <p>Using CSS, how can I apply more than one transform? Example: In the following, only the translation is applied, not the roUsing CSS, how can I apply more than one transformExample: In the following, only the translation is applied, not the rotation.tation.</p>
                     </div>
                     <div className="introduction-image">
