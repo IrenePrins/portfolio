@@ -1,0 +1,43 @@
+.header {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    &-image{
+
+        &__design {
+            position: absolute;
+            top: -35px;
+            left: -62px;
+            transform: rotate(-58deg) scale(2);
+        }
+    } 
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+
+    &-text {
+        flex-basis: 40%;
+        padding-top: 100px;
+    }
+
+    &-image {
+        position: relative;
+        flex-basis: 40%;
+
+        &__irene {
+            max-width: 350px;
+        }
+
+        &__design {
+            position: absolute;
+            bottom: 18px;
+            left: -187px;
+            transform: rotate(35deg) scale(0.5);
+        }
+    }
+}

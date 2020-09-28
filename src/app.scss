@@ -1,0 +1,14 @@
+@import './Components/Navigation/navigation.scss';
+@import './Components/Header/header.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+}
