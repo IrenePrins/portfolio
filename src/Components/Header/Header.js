@@ -1,8 +1,8 @@
 import React, { useState }  from 'react';
 import Navigation from '../Navigation/Navigation'
 import '../../app.scss';
-import design from '../../assets/design_cv_2.png';
 import irene from '../../assets/irene.jpg';
+import cv from '../../assets/Irene_Prins_CV.pdf';
 import background from '../../assets/watercolor.jpg';
 
 export default function Header() {
@@ -15,10 +15,11 @@ export default function Header() {
                         <div className="introduction-text">
                             <h1 className="introduction-text__title">Irene Prins</h1>
                             <h2 className="introduction-text__subtitle">Webdeveloper</h2>
+                            <a href={process.env.PUBLIC_URL+cv} className="button" download target="_blank">Download cv</a>
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container" id="about">
                     <div className="about">
                         <div className="about__image">
                             <img src={irene} alt="Design" className="about__irene" />

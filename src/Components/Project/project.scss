@@ -48,6 +48,9 @@
     }
 
     &-content {
+        text-decoration: none;
+        color: inherit;
+
         &__title {
             margin: 0;
             font-family: 'Caveat', sans-serif;

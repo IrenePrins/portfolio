@@ -3,10 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    z-index: -2;
 
     &__image {
-        &::after {
+        &::before {
             position: absolute;
             content: '';
             width: 100%;
@@ -14,20 +13,19 @@
             background-color: #F8D58C;
             bottom: 0;
             right: 0;
-            z-index: -2;
         }
     } 
 }
 
 .about {
     &__image {
-        &::after {
+        &::before {
             position: absolute;
             content: '';
             width: 100%;
             height: 100px;
             background-color: #F8D58C;
-            bottom: -120px;
+            bottom: -100px;
             right: 0;
             z-index: -2;
         }
@@ -90,6 +88,10 @@
             font-size: 50px;
             font-family: "Caveat", sans-serif;
             color: #FBB468;
+        }
+
+        &__subtitle {
+            padding-bottom: 50px;
         }
     }
 }

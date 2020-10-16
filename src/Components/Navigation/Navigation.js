@@ -7,14 +7,14 @@ export default function Navigation() {
         <div className="container">
             <div className="nav">
                 <div className="nav__items">
-                    <div className="nav-item">
-                        <span className="nav-item__text">Resume</span>
+                    <div className="nav-item" >
+                        <a className="nav-item__text" href="#about">Over mij</a>
                     </div>
-                    <div className="nav-item">
-                        <span className="nav-item__text">Over mij</span>
+                    <div className="nav-item" >
+                        <a className="nav-item__text" href="#projects">Projecten</a>
                     </div>
-                    <div className="nav-item">
-                        <span className="nav-item__text">Projecten</span>
+                    <div className="nav-item" >
+                        <a className="nav-item__text" href="#skills">Skills</a>
                     </div>
                 </div>
             </div>

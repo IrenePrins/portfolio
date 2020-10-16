@@ -4,6 +4,8 @@
 @import './Components/Project/project.scss';
 @import './Components/Skills/skills.scss';
 @import './Components/Skill/skill.scss';
+@import './Components/Footer/footer.scss';
+@import './Components/Button/button.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap');
 
@@ -27,4 +29,8 @@ body {
 
 h1 {
     font-family: 'Caveat', sans-serif;
+}
+
+.button {
+    text-decoration: none;
 }

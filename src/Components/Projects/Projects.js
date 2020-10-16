@@ -9,35 +9,40 @@ import eindhoven from '../../assets/eindhoven.png';
 export default function Projects() {
     
     return (
-        <div className="container">
+        <div className="container" id="projects">
             <h1 className="projects__title">Projects</h1>
             <div className="projects">
                 <div className="projects-container--left">
                     <div className="project project--medium" style={{ backgroundImage:`url(${closeTravels})`}}>
-                        <Project title="Close travels" position="bottom-left" tags={["Symfony", "SASS", "TWIG", "Typescript"]}/>
+                        <Project title="Close travels"
+                         position="bottom-left"
+                         tags={["Symfony", "SASS", "TWIG", "Typescript"]}
+                         link="https://closetravels.ireneprins.com"/>
                     </div>
                     <div className="project project--medium project--menunu" style={{ backgroundColor: "#68163B"}}>
                         <Project title="Menunu" 
                             position="top"
                             subtitle="Toegankelijke menu webapp" 
-                            tags={["React", "SASS", "Javascript"]}/>
+                            tags={["React", "SASS", "Javascript"]}
+                            link="https://menunu.ireneprins.com"/>
                     </div>
                     <div className="project project--big project--lyf" style={{ backgroundImage:`url(${lead})`}}>
                         <Project title="Lead Your Future" 
                         subtitle="Platform voor vrouwelijk talent" 
                         tags={["Symfony", "SASS", "Typescript"]}
-                        label="ch"/>
+                        label="ch"
+                        link="https://leadyourfuture.nl"/>
                     </div>
                 </div>
                 <div className="projects-container--right">
                     <div className="project project--small project--white" style={{ backgroundImage:`url(${orchidee})`}}>
-                        <Project title="Van der Houwen Orchideeën" tags={["HTML", "CSS"]}/>
+                        <Project title="Van der Houwen Orchideeën" tags={["HTML", "CSS"]} link="https://vanderhouwenorchideeen.nl"/>
                     </div>
                     <div className="project project--medium-small" style={{ backgroundImage:`url(${eindhoven})`}}>
-                        <Project title="" position="top" tags={["Symfony", "SASS", "Typescript"]} label="ch"/>
+                        <Project title="" position="top" tags={["Symfony", "SASS", "Typescript"]} label="ch" link="https://vrijwilliger.eindhovendoet.nl"/>
                     </div>
                     <div className="project project--small" style={{ backgroundImage:`url(${saveUrMan})`}}>
-                        <Project title="Save ur Man" position="bottom-left" tags={["Pixi Js", "HTML"]}/>
+                        <Project title="Save ur Man" position="bottom-left" tags={["Pixi Js", "HTML"]} link="https://IrenePrins.github.io"/>
                     </div>
                 </div>
             </div>

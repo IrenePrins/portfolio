@@ -4,7 +4,7 @@ import React from 'react';
 export default function Project(props) {
 
     return (
-        <div className={"project-content project-content--" + props.position }>
+        <a className={"project-content project-content--" + props.position } href={ props.link} target="_blank">
             <h3 className="project-content__title">{ props.title }</h3>
             {props.subtitle &&
                 <h4 className="project-content__subtitle">{ props.subtitle }</h4>
@@ -17,6 +17,6 @@ export default function Project(props) {
             {props.label &&
                 <span className={"project-content__label project-content__label--" + props.label}></span>
             }
-        </div>
+        </a>
     )
 }

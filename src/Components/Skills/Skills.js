@@ -4,7 +4,7 @@ import Skill from '../Skill/Skill'
 export default function Skills() {
     
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <div className="container--skills">
                 <h1 className="skills__title">Skills</h1>
                 <h2 className="skills__subtitle">Programmeertalen</h2>
