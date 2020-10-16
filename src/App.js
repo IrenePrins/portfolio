@@ -6,8 +6,6 @@ import Skills from './Components/Skills/Skills'
 import './app.scss';
 
 function App() {
-  const [clicked, setClicked] = useState(['click 1'])
-
   return (
     <>
       <Header />

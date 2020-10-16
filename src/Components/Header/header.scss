@@ -20,28 +20,54 @@
 }
 
 .about {
-    display: flex;
-
     &__image {
         &::after {
             position: absolute;
             content: '';
             width: 100%;
-            height: 200px;
+            height: 100px;
             background-color: #F8D58C;
-            bottom: -90px;
+            bottom: -120px;
             right: 0;
             z-index: -2;
         }
     }
 
+    @media only screen and (min-width: 800px) {
+        display: flex;
+
+        &__image {
+            &::after {
+                height: 200px;
+                bottom: -90px;
+            }
+        }
+    }
+
     &__irene {
-        max-width: 350px;
+        max-width: 250px;
+
+        @media only screen and (min-width: 500px) {
+            max-width: 350px;
+        }
+
+        display: block;
+        margin: 0 auto;
     }
 
     &__content {
-        padding-left: 50px;
-        max-width: 500px;
+        @media only screen and (min-width: 500px) {
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        @media only screen and (min-width: 800px) {
+            padding-left: 50px;
+            max-width: 500px;
+            text-align: left;
+            margin: 0;
+        }
     }
 
     &__title {

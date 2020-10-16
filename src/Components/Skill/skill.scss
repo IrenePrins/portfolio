@@ -1,14 +1,9 @@
 .skill {
     display: flex;
     margin-bottom: 20px;
-    justify-content: space-between ;
-
-    &__title {
-        flex-basis: 40%;
-    }
+    justify-content: space-between;
 
     &__level {
-        flex-basis: 60%;
         display: flex;
 
         &--5 {
@@ -61,6 +56,10 @@
         height: 20px;
         top: 10px;
         right: 10px;
-        margin-left: 40px;
+        margin-left: 20px;
+
+        @media only screen and (min-width: 500px) {
+            margin-left: 40px;
+        }
     }
 }
